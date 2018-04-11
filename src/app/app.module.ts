@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
-import { ShoppingListModule } from './shopping-list/shopping-list.module';
 import { AuthModule } from './auth/auth.module';
 import { CoreModule } from './core/core.module';
 import { CustomMaterializeModule } from './material.module';
@@ -21,7 +20,6 @@ import { CustomMaterializeModule } from './material.module';
     AppRoutingModule,
     HttpClientModule,
     SharedModule,
-    ShoppingListModule,
     AuthModule,
     CoreModule,
     CustomMaterializeModule

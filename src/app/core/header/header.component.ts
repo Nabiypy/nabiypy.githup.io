@@ -16,12 +16,6 @@ export class HeaderComponent {
   }
 
   onSaveData() {
-    this.dataStorageService.storeRecipes()
-      .subscribe(
-        (response) => {
-          console.log(response);
-        }
-      );
   }
 
   onFetchData() {
