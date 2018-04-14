@@ -1,8 +1,10 @@
-<header class="main-header">
+<header class="main-header navbar-fixed">
   <nav class="transparent">
     <div class="container">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Oru Ghana</a>
+        <a href="#" class="brand-logo">
+          <img src="/assets/images/oru-branding.png" class="responsive-img" width="10%">
+        </a>
         <a href="#" data-activates="mobile-nav" class="button-collapse">
           <i class="fa fa-bars"></i>
         </a>
@@ -62,16 +64,33 @@
       </div>
     </div>
   </nav>
+
   <!-- Showcase -->
   <div class="showcase container section section-search white-text center">
     <div class="row">
-      <div class="col s12">
+      <div class="col s12"><br><br><br><br>
         <h4>Search</h4>
-        <h5><em>Business</em>, <em>Places</em>, <em>Organizations</em></h5>
-        <div class="input-field">
-          <input class="white grey-text autocomplete" placeholder=" Accra, Cafe, Shops etc..." type="text" id="autocomplete-input">
+          <h6><em>Business</em>, <em>Places</em>, <em>Organizations</em></h6>
+        <div class="row">
+          <div class="col s2">
+            <div class="input-field">
+              <input class="white grey-text autocomplete" placeholder=" Accra, Cafe, Shops etc..." type="text" id="autocomplete-input">
+            </div>
+          </div>
+          <div class="col s4">
+            <div class="input-field">
+              <input class="white grey-text autocomplete" placeholder=" Accra, Cafe, Shops etc..." type="text" id="autocomplete-input">
+            </div>
+          </div>
+
+          <div class="col s4" >
+            <a routerLink="" class="btn purple modal-trigger" >Search</a>
+          </div>
         </div>
+   
       </div>
     </div>
   </div>
+
 </header>
+
